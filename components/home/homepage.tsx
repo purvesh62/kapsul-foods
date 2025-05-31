@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight, Shield, Leaf, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { loadAppConfig } from "@/lib/config-loader";
-import { AppConfig, Product, TrustItem } from "@/types/app-config";
+import { Product, TrustItem } from "@/types/app-config";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -42,7 +42,10 @@ const ProductImageCarousel = ({ images, productName }: { images: string[], produ
   if (images.length <= 1) {
     return (
       <div className="text-center mb-6 h-48 w-full">
-        <img
+        <Image
+          width={0}
+          height={0}
+          unoptimized={true}
           src={images[0]}
           alt={productName}
           className="h-full w-full object-contain group-hover:scale-105 transition-transform duration-300" 
@@ -102,7 +105,8 @@ const ProductImageCarousel = ({ images, productName }: { images: string[], produ
 };
 
 const HomePage = () => {
-  const [config, setConfig] = useState<any>(null);
+  //  @typescript-eslint/no-explicit-any
+  const [config, setConfig] = useState<any | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

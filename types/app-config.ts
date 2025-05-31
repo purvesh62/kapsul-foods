@@ -22,7 +22,9 @@ export interface SiteConfig {
   headerSubtitle: string;
   sectionTitles: {
     productsSection: string;
+    productsSubtitle: string;
     productsDescription: string;
+    amazonLink: string;
     whatappLink: string;
   };
   footerTitle: string;
