@@ -13,16 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kapsul",
-  manifest: "/site.webmanifest",
+  title: "KAPSUL",
+  // manifest: "/site.webmanifest",
   icons: {
     icon: [
-      { url: "/favicon.ico", type: "image/x-icon", sizes: "any" },
-      { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
-      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "favicon/favicon.ico", type: "image/x-icon", sizes: "any" },
+      { url: "favicon/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+      { url: "favicon/favicon-32x32.png", type: "image/png", sizes: "32x32" },
     ],
     apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      { url: "favicon/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
   },
 };
@@ -34,9 +34,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* Favicon and manifest links will be automatically managed by Next.js through the metadata object */}
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
