@@ -1,0 +1,108 @@
+{
+  "siteConfig": {
+    "headerTitle": "🌟 Amazing Wellness Store",
+    "headerSubtitle": "Premium Quality Guaranteed",
+    "sectionTitles": {
+      "productsSection": "🚀 Our Bestselling Products",
+      "productsDescription": "Transform your wellness journey with our scientifically-crafted products that blend ancient wisdom with modern convenience."
+    },
+    "footerTitle": "Amazing Wellness Store",
+    "footerDescription": "Your trusted partner in natural health and wellness since 2024",
+    "copyright": "© 2025 Amazing Wellness Store. All rights reserved."
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Chewable Paan Kapsul",
+      "tagline": "🌿 Pure Breath, Fresh Mint",
+      "images": [
+        "/products/paan-tablet/paan-tablet-1.jpg",
+        "/products/paan-tablet/paan-tablet-2.jpg",
+        "/products/paan-tablet/paan-tablet-3.jpg",
+        "/products/paan-tablet/paan-tablet-4.jpg",
+        "/products/paan-tablet/paan-tablet-5.jpg",
+        "/products/paan-tablet/paan-tablet-6.jpg"
+      ],
+      "description": "Experience the traditional taste of paan in a modern, convenient format. Our chewable paan capsules deliver authentic flavor without tobacco or stains - perfect for the modern lifestyle!",
+      "features": [
+        "✅ 100% tobacco-free formula",
+        "🍃 Traditional paan flavor profile",
+        "🚀 Anytime, anywhere convenience",
+        "💨 Long-lasting minty fresh breath",
+        "📦 12 premium pieces per pack",
+        "🌱 Natural ingredients only"
+      ],
+      "color": "from-red-500 to-red-700",
+      "amazonUrl": "https://amazon.com/product1"
+    },
+    {
+      "id": 2,
+      "name": "Immunity Ginger Shots",
+      "tagline": "⚡ Supercharge Your Immunity",
+      "images": [
+        "/products/ginger-tablet/ginger-1.jpg",
+        "/products/ginger-tablet/ginger-2.jpg",
+        "/products/ginger-tablet/ginger-3.jpg",
+        "/products/ginger-tablet/ginger-4.jpg",
+        "/products/ginger-tablet/ginger-5.jpg"
+      ],
+      "description": "Powerful immunity-boosting ginger shots with an irresistible chalpata flavor. Each shot delivers concentrated wellness benefits to keep you energized and protected all day long.",
+      "features": [
+        "🌶️ Authentic chalpata flavor burst",
+        "🛡️ Natural immunity booster",
+        "🧬 Pure ginger extract concentrate",
+        "🇮🇳 Premium Indian quality product",
+        "⚡ Quick absorption formula",
+        "💪 Daily wellness support"
+      ],
+      "color": "from-yellow-500 to-orange-600",
+      "amazonUrl": "https://amazon.com/product2"
+    },
+    {
+      "id": 3,
+      "name": "Gas Go Relief Candy",
+      "tagline": "👵 Grandma's Secret Recipe",
+      "images": [
+        "/products/gas-go-tablet/gas-go-1.jpg",
+        "/products/gas-go-tablet/gas-go-2.jpg",
+        "/products/gas-go-tablet/gas-go-3.jpg",
+        "/products/gas-go-tablet/gas-go-4.jpg",
+        "/products/gas-go-tablet/gas-go-5.jpg"
+      ],
+      "description": "Traditional digestive candy that provides instant gas relief using our grandmother's time-tested ancient recipe. Made with love and heritage herbs for natural digestive wellness.",
+      "features": [
+        "⚡ Instant gas and bloating relief",
+        "📜 Ancient Ayurvedic recipe",
+        "👜 Compact pocket-friendly size",
+        "🌿 100% natural herbal ingredients",
+        "👵 Grandmother-approved formula",
+        "🎯 Fast-acting digestive support"
+      ],
+      "color": "from-green-500 to-emerald-600",
+      "amazonUrl": "https://amazon.com/product3"
+    }
+  ],
+  "trustSection": [
+    {
+      "icon": "Leaf",
+      "title": "🌱 Pure Natural Ingredients",
+      "description": "Carefully sourced organic herbs and traditional ingredients with zero artificial additives",
+      "bgColor": "bg-green-100",
+      "iconColor": "text-green-600"
+    },
+    {
+      "icon": "Shield",
+      "title": "🛡️ Quality Guaranteed",
+      "description": "Rigorous quality testing and certification ensures every product meets international standards",
+      "bgColor": "bg-blue-100",
+      "iconColor": "text-blue-600"
+    },
+    {
+      "icon": "Star",
+      "title": "⭐ 10,000+ Happy Customers",
+      "description": "Join thousands of satisfied customers who trust our wellness products for their daily health",
+      "bgColor": "bg-yellow-100",
+      "iconColor": "text-yellow-600"
+    }
+  ]
+}
