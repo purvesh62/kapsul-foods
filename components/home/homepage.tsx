@@ -131,7 +131,7 @@ const HomePage = () => {
 	
 	return (
 		<div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-			<header className="bg-white/80 backdrop-blur-sm border-b border-slate-200 sticky top-0 z-50">
+			<header className="bg-white border-b border-slate-200 sticky top-0 z-50">
 				<div className="container mx-auto px-4 py-4">
 					<div className="flex items-center justify-between">
 						<Link href="#" className="flex items-center space-x-3">
@@ -184,8 +184,10 @@ const HomePage = () => {
 							</Link>
 							<p>{config.siteConfig.sectionTitles.productsSubtitle}</p>
 						</div>
-						<p className="text-xl text-slate-600 max-w-2xl mx-auto inline-flex gap-2 items-center justify-center">
-							{config.siteConfig.sectionTitles.productsDescription}
+						<div className={'mx-auto inline-flex gap-2 items-center justify-center'}>
+							<p className="text-xl text-slate-600">
+								{config.siteConfig.sectionTitles.productsDescription}
+							</p>
 							<Link
 								href={config.siteConfig.sectionTitles.whatappLink}
 								target="_blank"
@@ -199,7 +201,7 @@ const HomePage = () => {
 									unoptimized={true}
 								/>
 							</Link>
-						</p>
+						</div>
 					</div>
 					
 					<div className="grid md:grid-cols-2 gap-8">
